@@ -18,20 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CopyVsAssignment\CopyVsAssignment.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CopyVsAssignment\CopyVsAssignment.cpp" />
-    <ClCompile Include="CopyVsAssignment\main.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{19B684AA-AA0C-4CCF-A451-ACAE2C30E192}</ProjectGuid>
+    <ProjectGuid>{0CA92BBE-B300-49C6-AE85-88F96C870E83}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CPlusPlusPracticeProject</RootNamespace>
+    <RootNamespace>Pointers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>CopyingVsAssignment</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -158,6 +150,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Pointers.cpp" />
+    <ClCompile Include="PointersToMember.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PointersToMember.h" />
+    <ClInclude Include="structs.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

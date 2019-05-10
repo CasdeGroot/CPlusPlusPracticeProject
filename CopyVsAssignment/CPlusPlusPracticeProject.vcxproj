@@ -18,13 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CopyVsAssignment\CopyVsAssignment.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CopyVsAssignment\CopyVsAssignment.cpp" />
-    <ClCompile Include="CopyVsAssignment\main.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{19B684AA-AA0C-4CCF-A451-ACAE2C30E192}</ProjectGuid>
@@ -158,6 +151,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CopyVsAssignment.cpp" />
+    <ClCompile Include="CPlusPlusPracticeProject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CopyVsAssignment.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
